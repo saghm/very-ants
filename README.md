@@ -47,7 +47,27 @@ Or install it yourself as:
 
 ## Usage
 
-Just `require "very_ants"`, and watch the carnage!
+1. Require the gem
+
+```
+require "very_ants"
+```
+
+2. Set the variance constant
+
+```
+Fixnum::set_c(4)
+```
+
+3. Try and (mostly) fail to get correct arithmetic results
+
+```
+5 + 7 == 12  # probably not, but who knows
+```
+
+Warning: weird things can occur if you're running this in a REPL. For instance,
+when using `pry`, the arithmetic done internally by the interpreter seems to be
+affected, so weird things can happen.
 
 ## FAQ
 
