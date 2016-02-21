@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Saghm Rossi"]
   spec.email         = ["saghmrossi@gmail.com"]
 
-  spec.summary       = %q{Probabilistic arithmetic library}
-  spec.description   = %q{Redefines standard arithmetic operators to be probabilistic (but still return the correct result on average). Not meant to be used seriously.}
+  spec.summary       = %q{Probabilistic integer arithmetic library}
+  spec.description   = %q{Redefines standard integer arithmetic operators to be probabilistic (but still return the correct result on average). Not meant to be used seriously.}
   spec.homepage      = "https://github.com/saghm/very-ants"
   spec.license       = "MIT"
 
