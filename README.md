@@ -80,7 +80,7 @@ You wouldn't.
 I came up with the idea as a joke when talking to my roommate, and I thought it
 would be funny.
 
-## Isn't this is pretty slow way to do arithmetic?
+### Isn't this is pretty slow way to do arithmetic?
 
 Is efficiency really the reason you think this is a bad idea?
 
