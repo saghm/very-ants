@@ -6,11 +6,11 @@ class Fixnum
 
   @@c = 1
 
-  def self.set_c(i)
+  def self.how_antsy_do_you_feel(i)
     @@c = i
   end
 
-  def self.get_c
+  def self.i_forget_how_antsy_i_feel
     @@c
   end
 

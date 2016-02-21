@@ -56,7 +56,7 @@ require "very_ants"
 2. Set the variance constant
 
 ```
-Fixnum::set_c(4)
+Fixnum::how_antsy_do_you_feel(4)
 ```
 
 3. Try and (mostly) fail to get correct arithmetic results
@@ -67,7 +67,8 @@ Fixnum::set_c(4)
 
 Warning: weird things can occur if you're running this in a REPL. For instance,
 when using `pry`, the arithmetic done internally by the interpreter seems to be
-affected, so weird things can happen.
+affected, so sometimes the line numbers will get screwed up or the interpreter
+will crash.
 
 ## FAQ
 
