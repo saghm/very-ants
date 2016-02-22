@@ -23,7 +23,6 @@ module VeryAnts
     private
 
     def helper(init, incr, y, c)
-      init = init
       chance = Rational(1, c)
       real_mult(c, y).times { init = real_plus(init, incr) if rand < chance }
       init
