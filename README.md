@@ -7,13 +7,13 @@ each operation. For instance, given a constant `c`, arithmetic `x + y` is
 defined as:
 
 ```
-sum := 0, chance := 1 / c
+sum := x, chance := 1 / c
 
 (c * y) times do
   r := [new random number between 0 and 1]
 
   if r < chance
-     sum := sum + x
+     sum := sum + 1
 
 return sum
 ```
