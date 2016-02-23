@@ -18,8 +18,8 @@ sum := x, chance := 1 / c
 return sum
 ```
 
-So for `c = 3`, `x = 5`, `y = 2`, you start with `0`, and have a `1/3` chance
-of adding `5` to it six different times. On average, this would occur twice,
+So for `c = 3`, `x = 5`, `y = 2`, you start with `x`, and have a `1/3` chance
+of adding `1` to it six different times. On average, this would occur twice,
 which would give you 10, the correct answer. Another nice property is that for
 `c = 1`, addition works completely normally.
 
