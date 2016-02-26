@@ -2,7 +2,7 @@ require "very_ants/int"
 require "very_ants/version"
 
 class Fixnum
-  include VeryAnts::Int
+  extend VeryAnts::Int
 
   @@c = 1
 
@@ -15,22 +15,22 @@ class Fixnum
   end
 
   def +(other)
-    plus(self, other, @@c)
+    Fixnum::plus(self, other, @@c)
   end
 
   def -(other)
-    minus(self, other, @@c)
+    Fixnum::minus(self, other, @@c)
   end
 
   def *(other)
-    mult(self, other, @@c)
+    Fixnum::mult(self, other, @@c)
   end
 
   def /(other)
-    divide(self, other, @@c)
+    Fixnum::divide(self, other, @@c)
   end
 
   def %(other)
-    mod(self, other, @@c)
+    Fixnum::mod(self, other, @@c)
   end
 end
