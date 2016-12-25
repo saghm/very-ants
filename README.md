@@ -56,7 +56,7 @@ require "very_ants"
 2. Set the variance constant
 
 ```
-Fixnum::how_antsy_do_you_feel(4)
+Integer::how_antsy_do_you_feel(4)
 ```
 
 3. Try and (mostly) fail to get correct arithmetic results

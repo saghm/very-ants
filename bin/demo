@@ -11,7 +11,7 @@ puts "14 * 6 = #{14 * 6}"
 puts "14 / 6 = #{14 / 6}"
 puts
 puts "very ansty arithmetic (c = 4)"
-Fixnum::how_antsy_do_you_feel(4)
+Integer::how_antsy_do_you_feel(4)
 puts
 puts "14 + 6 = #{14 + 6}"
 puts "14 - 6 = #{14 - 6}"
